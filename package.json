@@ -1,0 +1,32 @@
+{
+  "name": "red-dead-api",
+  "version": "1.0.0",
+  "description": "GraphQL API for Red Dead Redemption 2",
+  "main": "lib/index.js",
+  "scripts": {
+		"dev": "nodemon --inspect=0.0.0.0:9229 --watch lib .",
+    "start": "node lib",
+    "test": "eslint lib"
+  },
+  "keywords": [
+    "red",
+    "dead",
+    "redemption",
+    "graphql",
+    "node",
+    "koa"
+  ],
+  "author": "Joe Furfaro",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^14.3.1",
+    "koa": "^2.7.0",
+    "koa-graphql": "^0.8.0",
+    "koa-router": "^7.4.0",
+    "pg": "^7.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "nodemon": "^1.19.1"
+  }
+}
