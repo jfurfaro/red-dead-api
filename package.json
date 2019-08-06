@@ -19,18 +19,18 @@
   "author": "Joe Furfaro",
   "license": "ISC",
   "dependencies": {
-    "graphql": "^14.3.1",
+    "graphql": "^14.4.2",
     "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
     "koa-graphql": "^0.8.0",
     "koa-router": "^7.4.0",
-    "pg": "^7.11.0",
-    "pino": "^5.12.6",
+    "pg": "^7.12.0",
+    "pino": "^5.13.1",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
     "chalk": "^2.4.2",
-    "eslint": "^6.0.1",
+    "eslint": "^6.1.0",
     "nodemon": "^1.19.1"
   }
 }
